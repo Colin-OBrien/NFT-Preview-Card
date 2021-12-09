@@ -1,8 +1,22 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(217, 54%, 11%);
+    text-align:center;
+}
+
 .box {
    background-color: hsl(216, 50%, 16%);
-   display: flex; 
-   flex-direction: column;
-   align-items: center;
+   padding: 20px;
+   border-radius: 15px;
+   max-width: 1440px;
 }
 
 h2 {
@@ -18,7 +32,8 @@ h2 {
 }
 
 .main-img {
-    max-width: 200px
+    max-width: 300px;
+    border-radius: 10px;
 }
 
 .icon {
@@ -30,6 +45,7 @@ h2 {
 }
 
 .attribution { 
+    color: hsl(0, 0%, 100%);
     font-size: 11px; 
     text-align: center; 
 }
