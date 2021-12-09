@@ -1,0 +1,39 @@
+.box {
+   background-color: hsl(216, 50%, 16%);
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+}
+
+h2 {
+    color: hsl(178, 100%, 50%);
+}
+
+.light-text {
+    color: hsl(215, 51%, 70%)
+}
+
+.white-text {
+    color: hsl(0, 0%, 100%)
+}
+
+.main-img {
+    max-width: 200px
+}
+
+.icon {
+    max-width: 15px;
+}
+
+.avatar {
+    max-width: 50px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
