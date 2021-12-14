@@ -145,3 +145,30 @@ hr {
     border-top: 1px solid hsl(215, 51%, 70%);
     
 }
+
+/* Hover Changes */
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.creation-credit .white-text:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.box .img-container .main-img {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.eyes {
+    align-self: center;
+    transition: .5s ease;
+    opacity: 0;
+  }
+
+  .box .img-container:hover .eyes {
+      opacity: 1;
+  }
