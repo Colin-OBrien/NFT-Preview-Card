@@ -3,6 +3,8 @@
 html, body {
     margin: 0;
     height: 100%;
+    max-width: 1440px;
+    min-width: 375px;
 }
 
 /*Containers*/
@@ -12,16 +14,16 @@ body {
     align-items: center;
     justify-content: center;
     background-color:hsl(217, 54%, 11%);
+    padding: 0 25px 0 25px;;
 }
 
 .box {
    display: flex;
    flex-direction: column;
-   align-items: center;
    background-color: hsl(216, 50%, 16%);
-   padding: 20px;
+   padding: 25px;
    border-radius: 15px;
-   max-width: 340px;
+   max-width: 325px;
 }
 
 .img-container {
@@ -30,19 +32,15 @@ body {
 
 .eth-time .eth {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
-    align-self: flex-start;
     gap: 7px;
     flex-grow: 1;
 }
 
 .eth-time .time {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    align-self: flex-end;
+    display: flex;;
     gap: 7px;
+    flex-shrink: 0;
 }
 
 .eth-time {
@@ -51,9 +49,19 @@ body {
     align-items: center;
 }
 
+.creation-credit {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+    gap: 7px;
+}
+
 /*Header Styles*/
 h1 {
     font-weight: 600;
+    padding-top: 10px;
 }
 
 h2 {
@@ -75,9 +83,20 @@ h1 {
     color: hsl(0, 0%, 100%);
 }
 
-#text {
+#card_name {
     font-family: 'Outfit';
     font-size: 18px;
+}
+
+#creator-name {
+    font-family: 'Outfit';
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#text {
+    font-family: 'Outfit';
+    font-size: 16px;
 }
 
 .attribution { 
@@ -93,7 +112,8 @@ h1 {
 
 /*Image Styles*/
 .main-img {
-    max-width: 300px;
+    width: 325px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -103,6 +123,11 @@ h1 {
 
 .avatar {
     max-width: 50px;
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 1px solid #aeb1a6;
 }
 
 .eth .icon {
@@ -113,3 +138,10 @@ h1 {
     align-self: center;
 }
 
+hr {
+    width: 100%;
+    height: 0px;
+    border: none;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    
+}
