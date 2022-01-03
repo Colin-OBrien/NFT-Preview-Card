@@ -72,5 +72,6 @@ I eventually stumbled across a solution to make the background the color I want 
 ## Author
 
 - [Colin O'Brien]
+- Website - [@Website](https://colin-obrien.github.io/NFT-Preview-Card/)
 - Frontend Mentor - [@Colin-OBrien](https://www.frontendmentor.io/profile/Colin-OBrien)
 
