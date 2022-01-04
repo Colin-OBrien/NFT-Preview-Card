@@ -83,30 +83,30 @@ h1 {
     color: hsl(0, 0%, 100%);
 }
 
-#card_name {
+.card_name {
     font-family: 'Outfit';
     font-size: 18px;
 }
 
-#creator-name {
+.creator-name {
     font-family: 'Outfit';
     font-size: 15px;
     font-weight: 300;
 }
 
-#text {
+.text {
     font-family: 'Outfit';
     font-size: 16px;
 }
 
-.attribution { 
+footer { 
     color: hsl(0, 0%, 100%);
     font-size: 11px; 
     text-align: center; 
     align-self: center;
 }
 
-.attribution a { 
+footer a { 
     color: hsl(228, 45%, 44%); 
 }
 
